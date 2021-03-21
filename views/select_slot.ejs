@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/flatly/bootstrap.min.css" integrity="sha384-qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/script.js">
+			
+
+
+	</script>
+	
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<a class="navbar-brand" href="#"> 
+			<legend>
+				Notch Up Challenge
+			</legend>
+		</a>
+		<li class="nav-item">
+			<a class="nav-link" href="https://github.com/Sarthak2608">
+				Source Code
+			</a>
+		</li>
+	</nav>
+	<br>
+
+
+
+	<h1>Please Select your slot</h1>
+	 <br>
+
+
+	<% for(i=0;i<data.slots.length;i++) {%>
+
+	<div class="container center">
+		<a href="/emailConfirmation?slot=<%=data.slots[i].slot%>"><button type="button" class="btn btn-info btn-lg btn-block"><%=	data.time[i] %> </button></a>
+		<br>
+	</div>
+	  
+	<% }%>
+
+</body>
+</html>
