@@ -1,4 +1,4 @@
-# NotchUp-Web-Challenge
+# Course Slot Booking (NotchUp-Web-Challenge)
 ## Project Link: https://sheltered-falls-91179.herokuapp.com/
 
 ## Problem Statement:
