@@ -1,6 +1,8 @@
 # Course Slot Booking (NotchUp-Web-Challenge)
 ## Project Link: https://sheltered-falls-91179.herokuapp.com/
 
+## Note: This link will not send the emails because I have changed my Gmail passwords for the security purposes. You can download the source code and update the mongodb key and passwords.
+
 ## Problem Statement:
 Part 1A) Build a webpage with a form that people can use to book a trial class on notchup.co. The form should be able to capture the following details:
 * Parent's Name
